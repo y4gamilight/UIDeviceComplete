@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UIDeviceComplete'
-  s.version          = '2.8.1'
+  s.version          = '2.8.2'
   s.summary          = 'UIDevice extensions for device Model, Family, Screen size and more'
  
   s.description      = <<-DESC
@@ -18,5 +18,5 @@ UIDevice that make UIDevice even more fun to work with.
  
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
-  s.source_files = 'Sources/*.swift'
+  s.source_files = 'UIDeviceComplete/**/*.{h,swift}'
 end

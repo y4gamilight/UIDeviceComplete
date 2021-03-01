@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objc public class Main:NSObject {
+@objc public class Y4gDeviceMain:NSObject {
     @objc public func getDeviceModel() -> String {
         return UIDevice.current.dc.commonDeviceName
     }

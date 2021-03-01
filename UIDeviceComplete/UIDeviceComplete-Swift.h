@@ -8,7 +8,6 @@
 
 #ifndef UIDeviceComplete_Swift_h
 #define UIDeviceComplete_Swift_h
-
-#import "UIDeviceComplete.h"
-@class Main;
+ 
+@class Y4gDeviceMain;
 #endif /* UIDeviceComplete_Swift_h */
