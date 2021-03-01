@@ -9,5 +9,5 @@
 #ifndef UIDeviceComplete_Swift_h
 #define UIDeviceComplete_Swift_h
 
-
+#import "UIDeviceComplete.h"
 #endif /* UIDeviceComplete_Swift_h */
