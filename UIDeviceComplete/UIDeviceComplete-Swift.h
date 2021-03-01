@@ -10,4 +10,5 @@
 #define UIDeviceComplete_Swift_h
 
 #import "UIDeviceComplete.h"
+@class Main;
 #endif /* UIDeviceComplete_Swift_h */

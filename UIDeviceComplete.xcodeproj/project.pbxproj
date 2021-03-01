@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B586BD025ED3E9500A627D2 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B586BCF25ED3E9500A627D2 /* Main.swift */; };
 		AA1C219D1F385BEC0095BFBD /* DeviceFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1C21961F385BEC0095BFBD /* DeviceFamily.swift */; };
 		AA1C219E1F385BEC0095BFBD /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1C21971F385BEC0095BFBD /* DeviceModel.swift */; };
 		AA1C219F1F385BEC0095BFBD /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1C21981F385BEC0095BFBD /* Identifier.swift */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		3B586B8C25ED37FF00A627D2 /* UIDeviceComplete-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDeviceComplete-Swift.h"; sourceTree = "<group>"; };
+		3B586BCF25ED3E9500A627D2 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		AA1C21961F385BEC0095BFBD /* DeviceFamily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceFamily.swift; path = Sources/DeviceFamily.swift; sourceTree = SOURCE_ROOT; };
 		AA1C21971F385BEC0095BFBD /* DeviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceModel.swift; path = Sources/DeviceModel.swift; sourceTree = SOURCE_ROOT; };
 		AA1C21981F385BEC0095BFBD /* Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Identifier.swift; path = Sources/Identifier.swift; sourceTree = SOURCE_ROOT; };
@@ -125,6 +127,7 @@
 				AA1C219A1F385BEC0095BFBD /* System.swift */,
 				AA1C219B1F385BEC0095BFBD /* UIDeviceComplete.swift */,
 				AA1C219C1F385BEC0095BFBD /* UIDeviceExtensions.swift */,
+				3B586BCF25ED3E9500A627D2 /* Main.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			files = (
 				AA1C21A11F385BEC0095BFBD /* System.swift in Sources */,
 				AA1C219D1F385BEC0095BFBD /* DeviceFamily.swift in Sources */,
+				3B586BD025ED3E9500A627D2 /* Main.swift in Sources */,
 				AA1C21A21F385BEC0095BFBD /* UIDeviceComplete.swift in Sources */,
 				AA1C219F1F385BEC0095BFBD /* Identifier.swift in Sources */,
 				AA1C219E1F385BEC0095BFBD /* DeviceModel.swift in Sources */,
