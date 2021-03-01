@@ -11,8 +11,4 @@
 #define UIDeviceComplete_Swift_h
  
 @class Y4gDeviceMain;
-@protocol Y4gDeviceMain <NSObject>
-- (NSString *)getDeviceModel;
-
-@end
 #endif /* UIDeviceComplete_Swift_h */
