@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3B586BD025ED3E9500A627D2 /* Y4gDeviceMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B586BCF25ED3E9500A627D2 /* Y4gDeviceMain.swift */; };
-		3B586D0125ED4A7400A627D2 /* UIDeviceComplete-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B586B8C25ED37FF00A627D2 /* UIDeviceComplete-Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA1C219D1F385BEC0095BFBD /* DeviceFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1C21961F385BEC0095BFBD /* DeviceFamily.swift */; };
 		AA1C219E1F385BEC0095BFBD /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1C21971F385BEC0095BFBD /* DeviceModel.swift */; };
 		AA1C219F1F385BEC0095BFBD /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1C21981F385BEC0095BFBD /* Identifier.swift */; };
@@ -141,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB1EF3C1F13866F003BBCF2 /* UIDeviceComplete.h in Headers */,
-				3B586D0125ED4A7400A627D2 /* UIDeviceComplete-Swift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +282,7 @@
 		AAB1EF3D1F13866F003BBCF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -348,6 +347,7 @@
 		AAB1EF3E1F13866F003BBCF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
